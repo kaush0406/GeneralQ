@@ -1,0 +1,12 @@
+Hi Mike,
+
+We would like to confirm the expected behaviour for the following scenario:
+
+For a PPT with an SDB fund initiating a SEP SERVICE withdrawal and selecting Full Withdrawal:
+	•	When the Full Balance option is selected, a pop-up message appears indicating that “this request requires additional paperwork.”
+	•	If the user clicks Continue, the system displays a hard stop page instructing them to contact a representative.
+	•	If the pop-up is closed or dismissed, the Full Withdrawal option becomes unchecked, and the request proceeds as a partial withdrawal. However, the withdrawal amount continues to display as the total vested amount available.
+
+Could you please confirm:
+	1.	Is this behaviour aligned with the intended design?
+	2.	Should the process always enforce a hard stop, or should the PPT be permitted to submit the request through a prefilled form instead?
