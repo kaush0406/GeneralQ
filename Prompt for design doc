@@ -1,0 +1,52 @@
+You are helping me write a technical design document for a Java Spring Boot backend change.
+
+Audience: Architects and Engineering Leads.
+
+The following diff represents the complete change set between development and my feature branch.
+
+Please generate a structured design document with the following sections:
+
+----------------------------------------------------
+
+1. Repo Name
+- Mention repository name clearly
+- Brief description of the service’s responsibility in system architecture
+
+2. Requirements
+- Business requirement
+- Technical requirement
+- Why this change is needed
+- Constraints or assumptions
+
+3. Implementation
+- High-level architecture overview
+- Components/classes involved
+- Flow of execution (request → service → repository → external system)
+- Any design pattern used (strategy, factory, decorator, etc.)
+
+4. Changes to be Made (With Code Examples and Explanation)
+For each major change:
+- Mention file/class name
+- Show the relevant code snippet from the diff
+- Explain what changed
+- Explain why it was implemented that way
+- Mention impact on:
+  - API contracts
+  - Database
+  - Performance
+  - Backward compatibility
+
+----------------------------------------------------
+
+Focus on:
+- Architectural clarity
+- Trade-offs
+- Impact analysis
+- Failure handling
+- Production considerations
+
+Here is the change summary:
+<PASTE git diff --stat OUTPUT>
+
+Here is the full diff:
+<PASTE git diff OUTPUT>
